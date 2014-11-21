@@ -73,7 +73,8 @@ I use `conda` to manage virtualenv. The normal workflow is going to be like belo
 
 As to ipython notebook integration and how to use markdown, the blog post from Jake
 [Migrating from Octopress to Pelican](https://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
-gives very detailed instructions. Check it out.
+gives very detailed instructions. Check it out. 
+
 
 Resources
 ---------
