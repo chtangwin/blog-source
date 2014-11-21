@@ -61,7 +61,7 @@ Now one can do the following:
         
 Workflow
 --------
-I use `conda` to manage virtualenv. the normal workflow is going to like below:
+I use `conda` to manage virtualenv. The normal workflow is going to be like below:
 
     :::bash
     $ activate myblog
@@ -69,7 +69,7 @@ I use `conda` to manage virtualenv. the normal workflow is going to like below:
     $ ... # test locally till all is good
     $ git commit -am "commit message"
     $ git push origin master
-    $ deactie myblog # or just exit once all done
+    $ deactivate myblog # or just exit once all done
 
 As to ipython notebook integration and how to use markdown, the blog post from Jake
 [Migrating from Octopress to Pelican](https://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
