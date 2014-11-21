@@ -3,7 +3,7 @@ PELICAN?=pelican.exe -v
 PELICANOPTS=
 
 #BASEDIR=$(CURDIR)
-BASEDIR=C:/Users/yanwu/Desktop/DEV/chtangwin.github.io
+BASEDIR=.
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
