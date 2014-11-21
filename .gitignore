@@ -1,1 +1,7 @@
+cache/
+output/
+pelican-plugins/
+pelican-octopress-theme/
 *.pyc
+*.pid
+chtangwin.github.io
