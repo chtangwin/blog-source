@@ -61,14 +61,19 @@ Now one can do the following:
         
 Workflow
 --------
-Once the basic setup is completed, use the following steps to add blog posts.
-1. activate myblog
-2. add new entries in "content/", including ipython notebooks, images, code, etc.
-3. test locally
-4. publish
+I use `conda` to manage virtualenv. the normal workflow is going to like below:
 
-5. deactivate myblog
+    :::bash
+    $ activate myblog
+    $ vim content/blog-post-file.md  # add/edit entries
+    $ ... # test locally till all is good
+    $ git commit -am "commit message"
+    $ git push origin master
+    $ deactie myblog # or just exit once all done
 
+As to ipython notebook integration and how to use markdown, the blog post from Jake
+[Migrating from Octopress to Pelican](https://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
+gives very detailed instructions. Check it out.
 
 Resources
 ---------
