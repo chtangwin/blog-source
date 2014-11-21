@@ -51,7 +51,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
 
 # STATIC_OUT_DIR requires pelican 3.3+.
 STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
