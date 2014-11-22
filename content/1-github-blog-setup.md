@@ -1,10 +1,10 @@
-Title: Github Blog Setup
+Title: GitHub Blog Setup
 Date: 2014-11-20 22:09
 Category: Python
 Tags: blog, python
 Slug: github-blog-setup
 Author: chtangwin
-Summary: github is super cool.
+Summary: Notes on github blog site setup using pelican.
 comments: true
 
 
@@ -20,8 +20,7 @@ the point where first post is done and local devserver is up. The only differenc
 is that I am using main branch ("master") for all edits. The other **very good** references are:
     
     - [Migrating to GitHub Pages using Pelican](http://mathamy.com/migrating-to-github-pages-using-pelican.html)
-    
-    - [Createing your blog with Pelican](http://chdoig.github.io/create-pelican-blog.html)
+    - [Creating your blog with Pelican](http://chdoig.github.io/create-pelican-blog.html)
     
     In fact, they use pretty themes. I plan to read through carefully later
     and see if can use some of their settings.
@@ -41,7 +40,7 @@ for how to publish to username.github.io site. In short summary, use the followi
 
         :::bash
         $ cd blog
-        $ pelican content   # or "make html"
+        $ make publish # or "pelican content"
         $ cd output
         $ git add --all
         $ git commit -m "commit message"
@@ -76,14 +75,16 @@ As to ipython notebook integration and how to use markdown, the blog post from J
 gives very detailed instructions. Check it out. 
 
 
+
 Resources
 ---------
 1. [Creating your blog with Pelican](http://chdoig.github.io/create-pelican-blog.html)
 2. [Migrating to GitHub Pages using Pelican](http://mathamy.com/migrating-to-github-pages-using-pelican.html)
+3. [Migrating from Octopress to Pelican](https://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
+4. A great reference for [Pelican](http://futurile.net/resources/blogging/pelican.html)
+5. Daring Fireball site's full documentation for [Markdown](http://daringfireball.net/projects/markdown/syntax)
 
 TODO
 ----
-- disqus setup
-- ipython notebook integration
-- update .bashrc for deactive() call
-- starting writing real contents
+- update .bashrc for deactivate() call
+- start writing real contents
