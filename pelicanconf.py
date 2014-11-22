@@ -10,7 +10,7 @@ SITENAME = u'chtangwin'
 SITESUBTITLE = u'Dive into Stats/FinMath'
 # Change in publishconf.py and ignore the WARNING.  This is needed so you
 # can inspect the site using a web-server at locahost.
-SITEURL = ''
+SITEURL = 'https://chtangwin.github.io'
 
 #PATH = 'content'
 
@@ -51,7 +51,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 # STATIC_OUT_DIR requires pelican 3.3+.
 STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
