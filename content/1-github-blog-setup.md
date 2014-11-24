@@ -70,9 +70,9 @@ I use `conda` to manage virtualenv. The normal workflow is going to be like belo
     $ git push origin master
     $ deactivate myblog # or just exit once all done
 
-As to ipython notebook integration and how to use markdown, the blog post from Jake
+As to ipython notebook integration and how to use markdown, the blog post
 [Migrating from Octopress to Pelican](https://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
-gives very detailed instructions. Check it out. 
+from Jake gives very detailed instructions. Check it out. 
 
 Resources
 ---------
@@ -94,6 +94,7 @@ would not trigger regeneration of html. One need to edit `pelicanconf.py` to dis
     :::bash
     LOAD_CONTENT_CACHE = False
 
-If anyone knows a better solution, please let me know.
+Now every ipython notebook change requires manually run `make html` or `make publish`. If anyone knows a better
+solution, please let me know.
     
 ----
