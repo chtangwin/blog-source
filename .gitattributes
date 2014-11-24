@@ -1,0 +1,16 @@
+#
+# reference: https://help.github.com/articles/dealing-with-line-endings/
+#
+
+# Auto detect text files and perform LF normalization
+*        text=auto
+
+*.md     text eol=lf
+*.html   text diff=html
+*.xml    text
+*.ipynb  text eol=lf
+*.css    text
+*.js     text
+
+*.png    binary
+*.jpg    binary
