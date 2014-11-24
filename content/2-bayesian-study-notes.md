@@ -7,4 +7,4 @@ Author: chtangwin
 Summary: Study notes for learning Bayesian data analysis.
 comments: true
 
-{% notebook study_notes.ipynb cells[1:] %}
+{% notebook study_notes.ipynb cells[:-2] %}
