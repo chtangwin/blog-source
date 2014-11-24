@@ -12,7 +12,7 @@ SITESUBTITLE = u'Dive into Stats/FinMath'
 # can inspect the site using a web-server at locahost.
 SITEURL = 'https://chtangwin.github.io'
 
-#PATH = 'content'
+PATH = 'content'
 
 # Times and dates.
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
@@ -60,7 +60,7 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # STATIC_OUT_DIR requires pelican 3.3+.
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
+STATIC_PATHS = ['images', 'figures', 'favicon.png']
 CODE_DIR     = 'code'
 NOTEBOOK_DIR = 'notebooks'
 
@@ -93,3 +93,6 @@ FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
+
+# tempfix to generate udpated html page when ipython notebook is changed
+LOAD_CONTENT_CACHE = False
