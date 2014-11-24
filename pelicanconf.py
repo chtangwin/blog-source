@@ -39,10 +39,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Doing Bayesian Data Analysis', 'http://doingbayesiandataanalysis.blogspot.com'),
+         ('Chris Fonnesbeck', 'https://github.com/fonnesbeck/'),
+         ('jakevdp', 'https://jakevdp.github.io/'),
+         ('camdp', 'http://camdp.com/blogs/'),
+         ('twiecki', 'https://twiecki.github.io/'),
+         ('Healthy Algorithms', 'http://healthyalgorithms.com/tag/bayesian'),
+         ('Prob. Programming', 'http://probabilistic-programming.org/wiki/Home'),
+         ('Planet Scipy', 'http://planet.scipy.org/'),
+         ('Planet Python', 'http://planet.python.org/'),
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
