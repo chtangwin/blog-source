@@ -74,8 +74,6 @@ As to ipython notebook integration and how to use markdown, the blog post from J
 [Migrating from Octopress to Pelican](https://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/)
 gives very detailed instructions. Check it out. 
 
-
-
 Resources
 ---------
 1. [Creating your blog with Pelican](http://chdoig.github.io/create-pelican-blog.html)
@@ -87,4 +85,3 @@ Resources
 TODO
 ----
 - update .bashrc for deactivate() call
-- start writing real contents
