@@ -85,3 +85,15 @@ Resources
 TODO
 ----
 - update .bashrc for deactivate() call
+
+
+### Update
+*11-24-2014:* It turns out Pelican only monitors *'md'* files in content folder, so any changes to *'ipynb'*
+would not trigger regeneration of html. One need to edit `pelicanconf.py` to disable cache:
+
+    :::bash
+    LOAD_CONTENT_CACHE = False
+
+If anyone knows a better solution, please let me know.
+    
+----
