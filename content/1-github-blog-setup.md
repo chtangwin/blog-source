@@ -82,12 +82,9 @@ Resources
 4. A great reference for [Pelican](http://futurile.net/resources/blogging/pelican.html)
 5. Daring Fireball site's full documentation for [Markdown](http://daringfireball.net/projects/markdown/syntax)
 
-TODO
-----
-- fix 'git push' issue on mobaterm
 
 ### Update
-*11-24-2014:* It turns out Pelican only monitors *'md'* files in content folder, so any changes to *'ipynb'*
+*11-24-2014:* It turns out Pelican only monitors *'.md'* files in content folder, so any changes to *'.ipynb'*
 would not trigger regeneration of html. One need to edit `pelicanconf.py` to disable cache:
 
     :::bash
