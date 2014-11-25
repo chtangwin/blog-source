@@ -63,6 +63,8 @@ clean:
 	mv $(OUTPUTDIR)/.git /tmp 
 	rm -rf $(OUTPUTDIR)/* 
 	mv /tmp/.git $(OUTPUTDIR)/  
+	cp .gitattributes $(OUTPUTDIR)/
+
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
